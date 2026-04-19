@@ -146,6 +146,23 @@ changelog/fragments/
 # Local scratch workspace
 .tmp/
 .artifacts/
+
+# Google OAuth secrets
+client_secret_*.json
+
+# Word temp files
+~$*.docx
+
+# Personal project files
+handover.md
+start_openclaw.sh
+run_next_openclaw.sh
+tmux_status.sh
+generate_*.py
+*.personal.*
+ClaudeCodeLessons*.docx
+OpenClaw_Beginners_Guide*.docx
+Openclaw Query.txt
 test/fixtures/openclaw-vitest-unit-report.json
 analysis/
 .artifacts/qa-e2e/
